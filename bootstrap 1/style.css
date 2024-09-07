@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+.header-home{
+    background-image: url(img/img/download.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+.header-home h3{
+    background-color: rgb(73, 162, 132);
+    margin: auto;
+    margin-top: 70px;
+    color: white;
+    padding: 20px;
+    line-height: 55px;
+    border-radius: 20px;
+    letter-spacing: 1.5px;
+
+}
+.cards-home{
+    background-image: url(img/img/Path\ 62.png) , url(img/img/i-love-my-job-so-much_329181-2178.png);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+span{
+    font-size: large;
+    font-weight: 900;
+    color: rgb(73, 162, 132);    
+}
+hr{
+    background-color: rgb(73, 162, 132);   
+    border: none;
+    height: 5px;
+    border-radius: 5px;
+    width: 120px;
+    margin-bottom: 40px;
+}
+.footer-home{
+    background-color: rgb(73, 162, 132);
+    height: 400px;
+    margin-top: 40px;
+    padding: 8%;
+    border-radius: 150px 150px 0px 0px;
+}
+.logo{
+    width: 144px;
+    height: fit-content;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+button{
+    font-size: 20px;
+    background-color: rgb(216, 125, 13);
+    color: white;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+    letter-spacing: 1.5px;
+    border: none;
+}
+a{
+    color: white;
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+@media only screen and (max-width:992px){
+    .cards-home{
+        height: fit-content;
+        padding-bottom: 90px;
+    }
+    hr{
+        height: 3px;  
+    }
+    .footer-home{
+        height: fit-content;
+        border-radius: 120px 120px 0px 0px;
+    }
+    .logo{
+        width: 100px;
+    }
+    a{
+        font-size: 14px;
+    }
+    button{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:500px){
+    .logo{
+        width: 70px;
+    }
+    a{
+        font-size: 10px;
+    }
+    button{
+        font-size: 12px;
+    }
+}
+
